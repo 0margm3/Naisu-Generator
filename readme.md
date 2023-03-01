@@ -8,7 +8,7 @@ A Web Application that can Convert C Language to Nassi-shneiderman Diagram
 - Diagram for Flow Control (i.e., If-else, for, while, and do-while)
 - instruction/statement i.e., `printf("...");`
 
-### What's is not current working?
+### What's not current working?
 
 - Diagram for Switch statement
   ```C

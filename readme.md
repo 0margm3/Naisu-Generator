@@ -2,13 +2,13 @@
 
 A Web Application that can Convert C Language to Nassi-shneiderman Diagram
 
-### Whats Currently working?
+### What's Currently working?
 
 - Can create a diagram for a single `Main()` Function
 - Diagram for Flow Control (i.e., If-else, for, while, and do-while)
 - instruction/statement i.e., `printf("...");`
 
-### Whats is not current working?
+### What's is not current working?
 
 - Diagram for Switch statement
   ```C

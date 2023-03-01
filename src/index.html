@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/output.css" rel="stylesheet" />
+    <!-- <script src="/src/main-test.js" type="module" defer></script> -->
+    <script src="/src/main.js"></script>
+    <title>NAISU Generator</title>
+  </head>
+  <body class="h-[830px] sm:h-fit">
+    <header class="p-2 mb-5 bg-green-600 text-white font-bold text-2xl">
+      <h1 class="mx-4 my-2">NAISU Generator</h1>
+    </header>
+    <div id="wrapper" class="mx-auto max-w-screen-lg px-[10px]">
+      <div id="body" class="p-2 items-center flex flex-col lg:flex-row">
+        <div id="input" class="p-2">
+          <form action="">
+            <textarea name="textArea_input"
+                      id="inputTxtArea"
+                      class="border-[1px] border-black rounded-md resize-none p-1 sm:w-[460px] sm:h-[490px] h-[300px] w-[300px]"
+                      required
+                      placeholder="//input your code here!"
+                      onclick="window.textArea(this);"></textarea>
+          </form>
+        </div>
+        <button id="convertBtn"
+                class="border-2 rounded-md border-green-800 bg-green-800 text-white font-bold place-self-center p-2 m-2 mb-3 select-none cursor-pointer hover:text-lg hover:mx-1"
+                onclick="window.userInput(this);">
+          Convert
+        </button>
+        <div id="output"
+             class="sm:w-[460px] sm:h-[490px] h-[300px] w-[300px] border-black border-[1px] rounded-md p-2 overflow-y-auto grow">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
